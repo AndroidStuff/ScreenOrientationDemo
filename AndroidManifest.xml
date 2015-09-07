@@ -22,16 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
-        <activity 
-            android:name=".FlexScreenActivity"
-            android:label="Flex Orientation Screen"
-            android:configChanges="orientation|screenSize|keyboardHidden" >
-            <intent-filter>
-                <action android:name="com.karthik.FlexScreenActivity" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".FlexScreenActivity" ></activity>
+        <activity android:name=".AnotherFlexScreenActivity"></activity>
     </application>
 
 </manifest>

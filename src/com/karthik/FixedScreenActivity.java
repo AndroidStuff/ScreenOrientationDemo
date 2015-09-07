@@ -17,4 +17,8 @@ public class FixedScreenActivity extends Activity {
 		startActivity( new Intent(this, FlexScreenActivity.class) );
 	}
 
+	public void goToAnotherFlexScreen(View v) {
+		startActivity( new Intent(this, AnotherFlexScreenActivity.class) );
+	}
+
 }
